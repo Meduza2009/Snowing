@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+  background-color:#004566;
+}
+.home{
+  position: absolute;
+  top: -20px;
+  color: #fff;
+  background-image: url('./white\ snow.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat;
+  width:20px;
+  height: 20px;
+  /* transform: translateY(10vh); */
+  /* animation: 0.5s; */
+  animation-name: snowing;
+}
+@keyframes snowing {
+  to {
+    transform: translateY(100vh);
+  }
+}
+#countdown ,h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: cursive;
+  justify-content: center;
+  display: flex;
+  margin-top: 50px;
+  color: #20d5d8;
+}
+h1{
+  margin-top: 300px;
+}
